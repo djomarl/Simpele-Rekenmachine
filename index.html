@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rekenmachine</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="rekenmachine">
+    <input id="inputvak" readonly>
+
+    <div id="knoppen">
+        <button class="operatoor-knop" onclick="voegAanDisplay('+')">+</button>
+        <button onclick="voegAanDisplay('7')">7</button>
+        <button onclick="voegAanDisplay('8')">8</button>
+        <button onclick="voegAanDisplay('9')">9</button>
+        <button class="operatoor-knop" onclick="voegAanDisplay('-')">-</button>
+        <button onclick="voegAanDisplay('4')">4</button>
+        <button onclick="voegAanDisplay('5')">5</button>
+        <button onclick="voegAanDisplay('6')">6</button>
+        <button class="operatoor-knop" onclick="voegAanDisplay('*')">*</button>
+        <button onclick="voegAanDisplay('1')">1</button>
+        <button onclick="voegAanDisplay('2')">2</button>
+        <button onclick="voegAanDisplay('3')">3</button>
+        <button class="operatoor-knop" onclick="voegAanDisplay('/')">/</button>
+        <button onclick="voegAanDisplay('0')">0</button>
+        <button onclick="voegAanDisplay('.')">,</button>
+        <button onclick="uitrekenen()">=</button>
+        <button class="operatoor-knop" onclick="clearDisplay()">C</button>
+
+    </div>
+</div>
+
+<Script src="main.js"></Script>
+
+</body>
+</html>
