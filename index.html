@@ -5,7 +5,7 @@
     <title>Rekenmachine</title>
     <link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body id="body">
 
 <div id="rekenmachine">
     <input id="inputvak" readonly>
@@ -30,6 +30,12 @@
         <button class="operatoor-knop" onclick="clearDisplay()">C</button>
 
     </div>
+
+</div>
+
+<div id="onderGedeelte">
+    <p id="darkmodeText">Dark Mode</p>
+    <input type="checkbox" id="checkLightOfDark" onchange="checkboxChanged(this)">
 </div>
 
 <Script src="main.js"></Script>

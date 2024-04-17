@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: white;
 }
 
 #rekenmachine {
@@ -21,13 +22,28 @@ body {
     border: 0px;
     background-color: hsl(0, 0%, 30%);
     color: white;
+    text-shadow: black 3px 4px 5px;
 }
 
 #knoppen {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    padding: 25px
+    padding: 25px;
+}
+
+#onderGedeelte {
+    margin-top: 900px;
+    margin-left: -270px;
+    display: inline-block;
+}
+
+#checkLightOfDark {
+    margin-left: 28px;
+}
+
+#darkmodeText {
+    text-align: right;
 }
 
 button {
